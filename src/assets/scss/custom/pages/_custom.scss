@@ -1,0 +1,66 @@
+.summary-cards {
+  box-shadow: none;
+  border: none;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.summary-cards:hover {
+  background-color: black;
+  color: white;
+}
+
+.klasha-cards {
+  box-shadow: none;
+  border: none;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.klasha-lines {
+  background-image: url("../../../images/lines.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.custom-search {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 15px 25px;
+  width: 300px;
+  height: 45px;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px solid black;
+  > input {
+    border: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    color: #ffffff;
+    width: 100%;
+    background: transparent;
+  }
+}
+
+.support-btn {
+  border: none;
+    background: #EF2C5A;
+    border-radius: 20px;
+    padding: 8px 15px;
+    color: white;
+    margin: 20px 0 0 20px;
+    width: fit-content;
+}
+
+.hide-btn {
+  border: 1px solid black;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 8px 15px;
+  color: black;
+  margin: 0 20px;
+  width: fit-content;
+}
